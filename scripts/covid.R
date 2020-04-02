@@ -20,7 +20,6 @@ read.csv("brazil_covid19.csv")
 read.csv("covid_19_data.csv")
 
 # Organizando o shape dos dados
-#?mutate
 #world <- data.frame(read.csv("COVID-19-worldwide.csv"))
 #world <- world %>% 
 #  mutate(dateRep = as.Date(dateRep, format='%d/%m/%Y'))
