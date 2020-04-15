@@ -2,7 +2,7 @@ setwd("/home/talita/covidProject/scripts")
 getwd()
 
 # Instalando pacotes
-install.packages("ggpubr")
+#install.packages("ggpubr")
 
 # Carregando os pacotes
 library(dplyr)
@@ -11,15 +11,15 @@ library(ggpubr)
 
 # Resumo dos arquivos
 
-# Dados Kaggle Mundo (https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset/data#covid_19_data.csv)
-read.csv("covid_19_data.csv")
+# Dados Kaggle Mundo (https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset/)
+read.csv("../datasets/covid_19_data.csv")
 
 # Dados Kaggle Brasil (https://www.kaggle.com/unanimad/corona-virus-brazil)
-read.csv("brazil_covid19.csv")
+read.csv("../datasets/brazil_covid19.csv")
 
 # Carregando dados
-world <- data.frame(read.csv("covid_19_data.csv"))
-brazilRegions <- data.frame(read.csv("brazil_covid19.csv"))
+world <- data.frame(read.csv("../datasets/covid_19_data.csv"))
+brazilRegions <- data.frame(read.csv("../datasets/brazil_covid19.csv"))
 #View(world)
 #View(brazilRegions)
 
@@ -44,7 +44,9 @@ brazil <- world %>% filter(state == "Brazil" & cases != 0)
 
 # Total de casos e mortes no Brasil por Região
 totalBrazilByRegion <- brazilRegions %>%
-  filter(brazilRegions$date == Sys.Date() - 1)
+  filter(brazilRegions$date == Sys.Date() - 1) %>%
+  group_by(region) %>%
+  summarise_at(vars(cases, deaths), funs(sum))
 #View(totalBrazilByRegion)
 
 # Total de Casos no Brasil
@@ -117,8 +119,23 @@ plotCE <- ggplot(casesCE, aes(date, cases, colours=cases)) +
   ggtitle("Casos de COVID-19 no CE")
 plotCE
 
+# AM
+casesAM <- brazilRegions %>%
+  filter(brazilRegions$state == "Amazonas") %>%
+  select(state, date, cases, deaths)
+casesAM$id <- c(1:nrow(casesAM))
+#View(casesAM)
+
+# Gráfico de crescimento de casos no AM
+plotAM <- ggplot(casesAM, aes(date, cases, colours=cases)) + 
+  geom_line(color="red") + 
+  geom_point(color="red") +
+  geom_text(aes(label=cases), vjust=1) +
+  ggtitle("Casos de COVID-19 no AM")
+plotAM
+
 # Combinando gráficos dos Estados Foco
-focusStates <- rbind(casesDF, casesSP, casesRJ, casesCE)
+focusStates <- rbind(casesDF, casesSP, casesRJ, casesCE, casesAM)
 plotfocusStates <- ggplot(focusStates, aes(x=id, y=cases, col=state, fill=state)) +
   geom_line() + 
   geom_point() + 
@@ -129,26 +146,19 @@ plotfocusStates
 
 # GRÁFICOS BRASIL
 
-# Gráfico do crescimento de casos por dia no Brasil
-#ggplot(brazil, aes(date, cases, colours=cases)) + 
-#  geom_line(color="red") + 
-#  geom_point(color="red") +
-#  geom_text(aes(label=cases), vjust=1) +
-#  ggtitle("Casos de COVID-19 no Brasil por dia")
-
-##########################################
-# Gráfico do total de casos no Brasil
-#ggplot(brazil, aes(date, total_cases)) + 
-#  geom_line(color="red") + 
-#  geom_point(color="red") +
-#  ggtitle("Casos de COVID-19 no Brasil")
-
 # Gráfico do total de casos por Região no Brasil
-totalBrazilByRegion %>% 
-  ggplot(aes(x = region, y = cases, group = region, color = region, fill = region)) + 
+totalBrazilByRegion %>%
+  ggplot(aes(x = reorder(region, -cases), y = cases, color = region, fill = region)) + 
   geom_bar(stat = "identity", position = "dodge") + 
   geom_text(aes(label=cases), vjust=0) + 
   ggtitle("Casos de COVID-19 por Região do Brasil")
+
+# Gráfico do total de mortes por Região no Brasil
+totalBrazilByRegion %>%
+  ggplot(aes(x = reorder(region, -deaths), y = deaths, color = region, fill = region)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  geom_text(aes(label=deaths), vjust=0) + 
+  ggtitle("Mortes por COVID-19 por Região do Brasil")
 
 # Totais Brasil
 
@@ -176,7 +186,7 @@ casesItaly <- world %>%
 casesItaly$id <- c(1:nrow(casesItaly))
 #View(casesItaly)
 casesItalyFilter <- casesItaly %>%
-  filter(casesItaly$id <= 40)
+  filter(casesItaly$id <= 50)
 
 # Mortes Itália
 deathsItaly <- world %>%
@@ -185,7 +195,7 @@ deathsItaly <- world %>%
 deathsItaly$id <- c(1:nrow(deathsItaly))
 #View(deathsItaly)
 deathsItalyFilter <- deathsItaly %>%
-  filter(deathsItaly$id <=20)
+  filter(deathsItaly$id <=30)
 #View(deathsItalyFilter)
 
 # Gráficos Brasil e Mundo
@@ -236,7 +246,7 @@ plotbrazilItalyDeaths <- ggplot(brazilItalyDeaths, aes(x=id, y=deaths, col=state
   geom_line() + 
   geom_point() + 
   geom_text(aes(label=deaths), vjust=1) +
-  ggtitle("Comparação de Casos de COVID-19 Brasil e Itália")
+  ggtitle("Comparação de Mortes de COVID-19 Brasil e Itália")
 plotbrazilItalyDeaths
 
 # Comparando dados dos Estados do Brasil e Mundo
