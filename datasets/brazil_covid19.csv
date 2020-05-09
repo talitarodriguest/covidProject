@@ -1680,7 +1680,7 @@ date,region,state,cases,deaths
 2020-04-01,Nordeste,Alagoas,18,1
 2020-04-01,Nordeste,Bahia,246,2
 2020-04-01,Nordeste,Ceará,444,8
-2020-04-01,Nordeste,Maranhão,54,1
+2020-04-01,Nordeste,Maranhão,52,1
 2020-04-01,Nordeste,Paraíba,20,1
 2020-04-01,Nordeste,Pernambuco,95,8
 2020-04-01,Nordeste,Piauí,18,4
@@ -1689,7 +1689,7 @@ date,region,state,cases,deaths
 2020-04-01,Norte,Acre,43,0
 2020-04-01,Norte,Amapá,11,0
 2020-04-01,Norte,Amazonas,200,3
-2020-04-01,Norte,Pará,40,0
+2020-04-01,Norte,Pará,40,1
 2020-04-01,Norte,Rondônia,9,1
 2020-04-01,Norte,Roraima,22,0
 2020-04-01,Norte,Tocantins,12,0
@@ -2051,3 +2051,651 @@ date,region,state,cases,deaths
 2020-04-14,Sul,Paraná,791,36
 2020-04-14,Sul,Rio Grande do Sul,700,18
 2020-04-14,Sul,Santa Catarina,826,26
+2020-04-15,Centro-Oeste,Distrito Federal,682,17
+2020-04-15,Centro-Oeste,Goiás,304,15
+2020-04-15,Centro-Oeste,Mato Grosso,151,4
+2020-04-15,Centro-Oeste,Mato Grosso do Sul,121,4
+2020-04-15,Nordeste,Alagoas,82,5
+2020-04-15,Nordeste,Bahia,807,27
+2020-04-15,Nordeste,Ceará,2157,116
+2020-04-15,Nordeste,Maranhão,630,34
+2020-04-15,Nordeste,Paraíba,151,21
+2020-04-15,Nordeste,Pernambuco,1484,143
+2020-04-15,Nordeste,Piauí,75,8
+2020-04-15,Nordeste,Rio Grande do Norte,399,19
+2020-04-15,Nordeste,Sergipe,46,4
+2020-04-15,Norte,Acre,101,3
+2020-04-15,Norte,Amapá,334,7
+2020-04-15,Norte,Amazonas,1554,106
+2020-04-15,Norte,Pará,384,21
+2020-04-15,Norte,Rondônia,69,2
+2020-04-15,Norte,Roraima,114,3
+2020-04-15,Norte,Tocantins,26,1
+2020-04-15,Sudeste,Espírito Santo,557,18
+2020-04-15,Sudeste,Minas Gerais,903,30
+2020-04-15,Sudeste,Rio de Janeiro,3743,265
+2020-04-15,Sudeste,São Paulo,11043,778
+2020-04-15,Sul,Paraná,803,38
+2020-04-15,Sul,Rio Grande do Sul,747,19
+2020-04-15,Sul,Santa Catarina,853,28
+2020-04-16,Centro-Oeste,Distrito Federal,716,20
+2020-04-16,Centro-Oeste,Goiás,318,16
+2020-04-16,Centro-Oeste,Mato Grosso,156,5
+2020-04-16,Centro-Oeste,Mato Grosso do Sul,131,5
+2020-04-16,Nordeste,Alagoas,89,5
+2020-04-16,Nordeste,Bahia,951,30
+2020-04-16,Nordeste,Ceará,2386,124
+2020-04-16,Nordeste,Maranhão,695,37
+2020-04-16,Nordeste,Paraíba,165,24
+2020-04-16,Nordeste,Pernambuco,1683,160
+2020-04-16,Nordeste,Piauí,91,8
+2020-04-16,Nordeste,Rio Grande do Norte,400,20
+2020-04-16,Nordeste,Sergipe,48,4
+2020-04-16,Norte,Acre,110,5
+2020-04-16,Norte,Amapá,362,9
+2020-04-16,Norte,Amazonas,1719,124
+2020-04-16,Norte,Pará,438,24
+2020-04-16,Norte,Rondônia,76,3
+2020-04-16,Norte,Roraima,142,3
+2020-04-16,Norte,Tocantins,29,1
+2020-04-16,Sudeste,Espírito Santo,754,22
+2020-04-16,Sudeste,Minas Gerais,958,33
+2020-04-16,Sudeste,Rio de Janeiro,3944,300
+2020-04-16,Sudeste,São Paulo,11568,853
+2020-04-16,Sul,Paraná,832,41
+2020-04-16,Sul,Rio Grande do Sul,780,19
+2020-04-16,Sul,Santa Catarina,884,29
+2020-04-17,Centro-Oeste,Distrito Federal,746,20
+2020-04-17,Centro-Oeste,Goiás,335,16
+2020-04-17,Centro-Oeste,Mato Grosso,162,5
+2020-04-17,Centro-Oeste,Mato Grosso do Sul,143,5
+2020-04-17,Nordeste,Alagoas,110,7
+2020-04-17,Nordeste,Bahia,1059,36
+2020-04-17,Nordeste,Ceará,2684,149
+2020-04-17,Nordeste,Maranhão,797,40
+2020-04-17,Nordeste,Paraíba,195,26
+2020-04-17,Nordeste,Pernambuco,2006,186
+2020-04-17,Nordeste,Piauí,102,8
+2020-04-17,Nordeste,Rio Grande do Norte,463,23
+2020-04-17,Nordeste,Sergipe,53,4
+2020-04-17,Norte,Acre,135,5
+2020-04-17,Norte,Amapá,370,10
+2020-04-17,Norte,Amazonas,1809,145
+2020-04-17,Norte,Pará,557,26
+2020-04-17,Norte,Rondônia,92,3
+2020-04-17,Norte,Roraima,164,3
+2020-04-17,Norte,Tocantins,31,1
+2020-04-17,Sudeste,Espírito Santo,856,25
+2020-04-17,Sudeste,Minas Gerais,1021,35
+2020-04-17,Sudeste,Rio de Janeiro,4349,341
+2020-04-17,Sudeste,São Paulo,12841,928
+2020-04-17,Sul,Paraná,874,42
+2020-04-17,Sul,Rio Grande do Sul,802,22
+2020-04-17,Sul,Santa Catarina,926,30
+2020-04-18,Centro-Oeste,Distrito Federal,762,24
+2020-04-18,Centro-Oeste,Goiás,378,18
+2020-04-18,Centro-Oeste,Mato Grosso,171,5
+2020-04-18,Centro-Oeste,Mato Grosso do Sul,161,5
+2020-04-18,Nordeste,Alagoas,132,7
+2020-04-18,Nordeste,Bahia,1193,37
+2020-04-18,Nordeste,Ceará,3034,176
+2020-04-18,Nordeste,Maranhão,1040,44
+2020-04-18,Nordeste,Paraíba,205,26
+2020-04-18,Nordeste,Pernambuco,2193,205
+2020-04-18,Nordeste,Piauí,123,9
+2020-04-18,Nordeste,Rio Grande do Norte,516,24
+2020-04-18,Nordeste,Sergipe,71,5
+2020-04-18,Norte,Acre,142,5
+2020-04-18,Norte,Amapá,393,10
+2020-04-18,Norte,Amazonas,1897,161
+2020-04-18,Norte,Pará,640,33
+2020-04-18,Norte,Rondônia,110,3
+2020-04-18,Norte,Roraima,201,3
+2020-04-18,Norte,Tocantins,33,1
+2020-04-18,Sudeste,Espírito Santo,952,28
+2020-04-18,Sudeste,Minas Gerais,1077,39
+2020-04-18,Sudeste,Rio de Janeiro,4543,387
+2020-04-18,Sudeste,São Paulo,13894,991
+2020-04-18,Sul,Paraná,945,46
+2020-04-18,Sul,Rio Grande do Sul,831,24
+2020-04-18,Sul,Santa Catarina,962,31
+2020-04-19,Centro-Oeste,Distrito Federal,827,24
+2020-04-19,Centro-Oeste,Goiás,393,18
+2020-04-19,Centro-Oeste,Mato Grosso,174,5
+2020-04-19,Centro-Oeste,Mato Grosso do Sul,168,5
+2020-04-19,Nordeste,Alagoas,159,15
+2020-04-19,Nordeste,Bahia,1230,45
+2020-04-19,Nordeste,Ceará,3252,186
+2020-04-19,Nordeste,Maranhão,1205,48
+2020-04-19,Nordeste,Paraíba,236,29
+2020-04-19,Nordeste,Pernambuco,2459,216
+2020-04-19,Nordeste,Piauí,145,10
+2020-04-19,Nordeste,Rio Grande do Norte,531,25
+2020-04-19,Nordeste,Sergipe,83,5
+2020-04-19,Norte,Acre,163,6
+2020-04-19,Norte,Amapá,416,11
+2020-04-19,Norte,Amazonas,2044,182
+2020-04-19,Norte,Pará,685,34
+2020-04-19,Norte,Rondônia,128,4
+2020-04-19,Norte,Roraima,222,3
+2020-04-19,Norte,Tocantins,33,1
+2020-04-19,Sudeste,Espírito Santo,1099,30
+2020-04-19,Sudeste,Minas Gerais,1154,39
+2020-04-19,Sudeste,Rio de Janeiro,4765,402
+2020-04-19,Sudeste,São Paulo,14267,1015
+2020-04-19,Sul,Paraná,987,48
+2020-04-19,Sul,Rio Grande do Sul,854,24
+2020-04-19,Sul,Santa Catarina,975,32
+2020-04-20,Centro-Oeste,Distrito Federal,872,24
+2020-04-20,Centro-Oeste,Goiás,403,19
+2020-04-20,Centro-Oeste,Mato Grosso,181,6
+2020-04-20,Centro-Oeste,Mato Grosso do Sul,171,5
+2020-04-20,Nordeste,Alagoas,171,18
+2020-04-20,Nordeste,Bahia,1341,46
+2020-04-20,Nordeste,Ceará,3482,198
+2020-04-20,Nordeste,Maranhão,1320,54
+2020-04-20,Nordeste,Paraíba,245,32
+2020-04-20,Nordeste,Pernambuco,2690,234
+2020-04-20,Nordeste,Piauí,158,12
+2020-04-20,Nordeste,Rio Grande do Norte,595,27
+2020-04-20,Nordeste,Sergipe,86,5
+2020-04-20,Norte,Acre,176,8
+2020-04-20,Norte,Amapá,433,13
+2020-04-20,Norte,Amazonas,2160,185
+2020-04-20,Norte,Pará,902,35
+2020-04-20,Norte,Rondônia,160,4
+2020-04-20,Norte,Roraima,244,3
+2020-04-20,Norte,Tocantins,34,1
+2020-04-20,Sudeste,Espírito Santo,1168,33
+2020-04-20,Sudeste,Minas Gerais,1189,41
+2020-04-20,Sudeste,Rio de Janeiro,4899,422
+2020-04-20,Sudeste,São Paulo,14580,1037
+2020-04-20,Sul,Paraná,1007,51
+2020-04-20,Sul,Rio Grande do Sul,889,27
+2020-04-20,Sul,Santa Catarina,1025,35
+2020-04-21,Centro-Oeste,Distrito Federal,881,24
+2020-04-21,Centro-Oeste,Goiás,421,19
+2020-04-21,Centro-Oeste,Mato Grosso,181,6
+2020-04-21,Centro-Oeste,Mato Grosso do Sul,173,6
+2020-04-21,Nordeste,Alagoas,210,19
+2020-04-21,Nordeste,Bahia,1489,47
+2020-04-21,Nordeste,Ceará,3716,215
+2020-04-21,Nordeste,Maranhão,1396,60
+2020-04-21,Nordeste,Paraíba,263,33
+2020-04-21,Nordeste,Pernambuco,2908,260
+2020-04-21,Nordeste,Piauí,186,14
+2020-04-21,Nordeste,Rio Grande do Norte,608,28
+2020-04-21,Nordeste,Sergipe,92,5
+2020-04-21,Norte,Acre,195,8
+2020-04-21,Norte,Amapá,457,13
+2020-04-21,Norte,Amazonas,2270,193
+2020-04-21,Norte,Pará,1026,38
+2020-04-21,Norte,Rondônia,199,4
+2020-04-21,Norte,Roraima,247,3
+2020-04-21,Norte,Tocantins,37,1
+2020-04-21,Sudeste,Espírito Santo,1212,34
+2020-04-21,Sudeste,Minas Gerais,1230,44
+2020-04-21,Sudeste,Rio de Janeiro,5306,461
+2020-04-21,Sudeste,São Paulo,15385,1093
+2020-04-21,Sul,Paraná,1024,51
+2020-04-21,Sul,Rio Grande do Sul,904,27
+2020-04-21,Sul,Santa Catarina,1063,35
+2020-04-22,Centro-Oeste,Distrito Federal,946,25
+2020-04-22,Centro-Oeste,Goiás,438,21
+2020-04-22,Centro-Oeste,Mato Grosso,183,6
+2020-04-22,Centro-Oeste,Mato Grosso do Sul,175,6
+2020-04-22,Nordeste,Alagoas,243,20
+2020-04-22,Nordeste,Bahia,1644,50
+2020-04-22,Nordeste,Ceará,3910,233
+2020-04-22,Nordeste,Maranhão,1604,66
+2020-04-22,Nordeste,Paraíba,301,39
+2020-04-22,Nordeste,Pernambuco,3298,282
+2020-04-22,Nordeste,Piauí,206,15
+2020-04-22,Nordeste,Rio Grande do Norte,646,29
+2020-04-22,Nordeste,Sergipe,117,7
+2020-04-22,Norte,Acre,214,8
+2020-04-22,Norte,Amapá,479,14
+2020-04-22,Norte,Amazonas,2479,207
+2020-04-22,Norte,Pará,1195,43
+2020-04-22,Norte,Rondônia,223,5
+2020-04-22,Norte,Roraima,280,3
+2020-04-22,Norte,Tocantins,37,1
+2020-04-22,Sudeste,Espírito Santo,1313,34
+2020-04-22,Sudeste,Minas Gerais,1283,47
+2020-04-22,Sudeste,Rio de Janeiro,5552,490
+2020-04-22,Sudeste,São Paulo,15914,1134
+2020-04-22,Sul,Paraná,1063,57
+2020-04-22,Sul,Rio Grande do Sul,923,27
+2020-04-22,Sul,Santa Catarina,1091,37
+2020-04-23,Centro-Oeste,Distrito Federal,963,25
+2020-04-23,Centro-Oeste,Goiás,453,23
+2020-04-23,Centro-Oeste,Mato Grosso,221,7
+2020-04-23,Centro-Oeste,Mato Grosso do Sul,186,7
+2020-04-23,Nordeste,Alagoas,324,22
+2020-04-23,Nordeste,Bahia,1789,59
+2020-04-23,Nordeste,Ceará,4598,266
+2020-04-23,Nordeste,Maranhão,1757,76
+2020-04-23,Nordeste,Paraíba,345,40
+2020-04-23,Nordeste,Pernambuco,3519,312
+2020-04-23,Nordeste,Piauí,217,15
+2020-04-23,Nordeste,Rio Grande do Norte,708,34
+2020-04-23,Nordeste,Sergipe,124,8
+2020-04-23,Norte,Acre,227,10
+2020-04-23,Norte,Amapá,548,16
+2020-04-23,Norte,Amazonas,2888,234
+2020-04-23,Norte,Pará,1267,53
+2020-04-23,Norte,Rondônia,250,5
+2020-04-23,Norte,Roraima,297,3
+2020-04-23,Norte,Tocantins,37,2
+2020-04-23,Sudeste,Espírito Santo,1363,42
+2020-04-23,Sudeste,Minas Gerais,1308,51
+2020-04-23,Sudeste,Rio de Janeiro,6172,530
+2020-04-23,Sudeste,São Paulo,16740,1345
+2020-04-23,Sul,Paraná,1082,60
+2020-04-23,Sul,Rio Grande do Sul,994,29
+2020-04-23,Sul,Santa Catarina,1115,39
+2020-04-24,Centro-Oeste,Distrito Federal,989,26
+2020-04-24,Centro-Oeste,Goiás,486,24
+2020-04-24,Centro-Oeste,Mato Grosso,240,8
+2020-04-24,Centro-Oeste,Mato Grosso do Sul,213,7
+2020-04-24,Nordeste,Alagoas,413,27
+2020-04-24,Nordeste,Bahia,1962,64
+2020-04-24,Nordeste,Ceará,4800,284
+2020-04-24,Nordeste,Maranhão,1951,88
+2020-04-24,Nordeste,Paraíba,386,44
+2020-04-24,Nordeste,Pernambuco,3999,352
+2020-04-24,Nordeste,Piauí,256,16
+2020-04-24,Nordeste,Rio Grande do Norte,754,38
+2020-04-24,Nordeste,Sergipe,144,8
+2020-04-24,Norte,Acre,234,11
+2020-04-24,Norte,Amapá,633,18
+2020-04-24,Norte,Amazonas,3194,255
+2020-04-24,Norte,Pará,1446,75
+2020-04-24,Norte,Rondônia,290,5
+2020-04-24,Norte,Roraima,304,3
+2020-04-24,Norte,Tocantins,43,2
+2020-04-24,Sudeste,Espírito Santo,1381,42
+2020-04-24,Sudeste,Minas Gerais,1419,54
+2020-04-24,Sudeste,Rio de Janeiro,6282,570
+2020-04-24,Sudeste,São Paulo,17826,1512
+2020-04-24,Sul,Paraná,1119,64
+2020-04-24,Sul,Rio Grande do Sul,1061,31
+2020-04-24,Sul,Santa Catarina,1170,42
+2020-04-25,Centro-Oeste,Distrito Federal,1013,26
+2020-04-25,Centro-Oeste,Goiás,506,25
+2020-04-25,Centro-Oeste,Mato Grosso,247,9
+2020-04-25,Centro-Oeste,Mato Grosso do Sul,217,7
+2020-04-25,Nordeste,Alagoas,501,29
+2020-04-25,Nordeste,Bahia,2081,70
+2020-04-25,Nordeste,Ceará,5421,310
+2020-04-25,Nordeste,Maranhão,2105,100
+2020-04-25,Nordeste,Paraíba,447,46
+2020-04-25,Nordeste,Pernambuco,4507,381
+2020-04-25,Nordeste,Piauí,297,17
+2020-04-25,Nordeste,Rio Grande do Norte,781,40
+2020-04-25,Nordeste,Sergipe,153,9
+2020-04-25,Norte,Acre,258,11
+2020-04-25,Norte,Amapá,685,19
+2020-04-25,Norte,Amazonas,3635,287
+2020-04-25,Norte,Pará,1579,86
+2020-04-25,Norte,Rondônia,328,7
+2020-04-25,Norte,Roraima,345,3
+2020-04-25,Norte,Tocantins,50,2
+2020-04-25,Sudeste,Espírito Santo,1595,47
+2020-04-25,Sudeste,Minas Gerais,1481,58
+2020-04-25,Sudeste,Rio de Janeiro,6828,615
+2020-04-25,Sudeste,São Paulo,20004,1667
+2020-04-25,Sul,Paraná,1140,69
+2020-04-25,Sul,Rio Grande do Sul,1096,34
+2020-04-25,Sul,Santa Catarina,1209,42
+2020-04-26,Centro-Oeste,Distrito Federal,1066,27
+2020-04-26,Centro-Oeste,Goiás,573,25
+2020-04-26,Centro-Oeste,Mato Grosso,250,9
+2020-04-26,Centro-Oeste,Mato Grosso do Sul,234,7
+2020-04-26,Nordeste,Alagoas,554,32
+2020-04-26,Nordeste,Bahia,2209,73
+2020-04-26,Nordeste,Ceará,5833,327
+2020-04-26,Nordeste,Maranhão,2223,112
+2020-04-26,Nordeste,Paraíba,499,49
+2020-04-26,Nordeste,Pernambuco,4898,415
+2020-04-26,Nordeste,Piauí,331,18
+2020-04-26,Nordeste,Rio Grande do Norte,825,44
+2020-04-26,Nordeste,Sergipe,159,9
+2020-04-26,Norte,Acre,279,11
+2020-04-26,Norte,Amapá,798,21
+2020-04-26,Norte,Amazonas,3833,304
+2020-04-26,Norte,Pará,1867,100
+2020-04-26,Norte,Rondônia,364,10
+2020-04-26,Norte,Roraima,401,4
+2020-04-26,Norte,Tocantins,58,2
+2020-04-26,Sudeste,Espírito Santo,1703,51
+2020-04-26,Sudeste,Minas Gerais,1548,61
+2020-04-26,Sudeste,Rio de Janeiro,7111,645
+2020-04-26,Sudeste,São Paulo,20715,1700
+2020-04-26,Sul,Paraná,1156,72
+2020-04-26,Sul,Rio Grande do Sul,1166,35
+2020-04-26,Sul,Santa Catarina,1235,42
+2020-04-27,Centro-Oeste,Distrito Federal,1146,27
+2020-04-27,Centro-Oeste,Goiás,616,26
+2020-04-27,Centro-Oeste,Mato Grosso,257,10
+2020-04-27,Centro-Oeste,Mato Grosso do Sul,238,9
+2020-04-27,Nordeste,Alagoas,643,34
+2020-04-27,Nordeste,Bahia,2354,76
+2020-04-27,Nordeste,Ceará,6726,390
+2020-04-27,Nordeste,Maranhão,2410,125
+2020-04-27,Nordeste,Paraíba,543,50
+2020-04-27,Nordeste,Pernambuco,5358,450
+2020-04-27,Nordeste,Piauí,364,20
+2020-04-27,Nordeste,Rio Grande do Norte,832,45
+2020-04-27,Nordeste,Sergipe,197,10
+2020-04-27,Norte,Acre,279,14
+2020-04-27,Norte,Amapá,842,26
+2020-04-27,Norte,Amazonas,3928,320
+2020-04-27,Norte,Pará,2128,114
+2020-04-27,Norte,Rondônia,393,10
+2020-04-27,Norte,Roraima,407,4
+2020-04-27,Norte,Tocantins,67,2
+2020-04-27,Sudeste,Espírito Santo,1796,57
+2020-04-27,Sudeste,Minas Gerais,1586,62
+2020-04-27,Sudeste,Rio de Janeiro,7944,677
+2020-04-27,Sudeste,São Paulo,21696,1825
+2020-04-27,Sul,Paraná,1186,75
+2020-04-27,Sul,Rio Grande do Sul,1228,42
+2020-04-27,Sul,Santa Catarina,1337,43
+2020-04-28,Centro-Oeste,Distrito Federal,1213,28
+2020-04-28,Centro-Oeste,Goiás,661,27
+2020-04-28,Centro-Oeste,Mato Grosso,261,11
+2020-04-28,Centro-Oeste,Mato Grosso do Sul,240,9
+2020-04-28,Nordeste,Alagoas,777,36
+2020-04-28,Nordeste,Bahia,2540,86
+2020-04-28,Nordeste,Ceará,6918,403
+2020-04-28,Nordeste,Maranhão,2528,145
+2020-04-28,Nordeste,Paraíba,633,53
+2020-04-28,Nordeste,Pernambuco,5724,508
+2020-04-28,Nordeste,Piauí,408,21
+2020-04-28,Nordeste,Rio Grande do Norte,857,48
+2020-04-28,Nordeste,Sergipe,280,11
+2020-04-28,Norte,Acre,311,16
+2020-04-28,Norte,Amapá,918,28
+2020-04-28,Norte,Amazonas,4337,351
+2020-04-28,Norte,Pará,2262,129
+2020-04-28,Norte,Rondônia,413,11
+2020-04-28,Norte,Roraima,425,6
+2020-04-28,Norte,Tocantins,79,2
+2020-04-28,Sudeste,Espírito Santo,1874,64
+2020-04-28,Sudeste,Minas Gerais,1649,71
+2020-04-28,Sudeste,Rio de Janeiro,8504,738
+2020-04-28,Sudeste,São Paulo,24041,2049
+2020-04-28,Sul,Paraná,1271,77
+2020-04-28,Sul,Rio Grande do Sul,1286,45
+2020-04-28,Sul,Santa Catarina,1476,44
+2020-04-29,Centro-Oeste,Distrito Federal,1275,28
+2020-04-29,Centro-Oeste,Goiás,705,27
+2020-04-29,Centro-Oeste,Mato Grosso,292,11
+2020-04-29,Centro-Oeste,Mato Grosso do Sul,249,9
+2020-04-29,Nordeste,Alagoas,957,41
+2020-04-29,Nordeste,Bahia,2646,96
+2020-04-29,Nordeste,Ceará,7267,441
+2020-04-29,Nordeste,Maranhão,2804,166
+2020-04-29,Nordeste,Paraíba,699,58
+2020-04-29,Nordeste,Pernambuco,6194,538
+2020-04-29,Nordeste,Piauí,454,24
+2020-04-29,Nordeste,Rio Grande do Norte,1086,53
+2020-04-29,Nordeste,Sergipe,337,12
+2020-04-29,Norte,Acre,354,17
+2020-04-29,Norte,Amapá,1016,31
+2020-04-29,Norte,Amazonas,4801,380
+2020-04-29,Norte,Pará,2422,137
+2020-04-29,Norte,Rondônia,433,15
+2020-04-29,Norte,Roraima,452,6
+2020-04-29,Norte,Tocantins,116,3
+2020-04-29,Sudeste,Espírito Santo,2107,76
+2020-04-29,Sudeste,Minas Gerais,1758,80
+2020-04-29,Sudeste,Rio de Janeiro,8869,794
+2020-04-29,Sudeste,São Paulo,26158,2247
+2020-04-29,Sul,Paraná,1348,82
+2020-04-29,Sul,Rio Grande do Sul,1368,50
+2020-04-29,Sul,Santa Catarina,1995,44
+2020-04-30,Centro-Oeste,Distrito Federal,1356,30
+2020-04-30,Centro-Oeste,Goiás,781,29
+2020-04-30,Centro-Oeste,Mato Grosso,297,11
+2020-04-30,Centro-Oeste,Mato Grosso do Sul,255,9
+2020-04-30,Nordeste,Alagoas,1044,47
+2020-04-30,Nordeste,Bahia,2851,104
+2020-04-30,Nordeste,Ceará,7606,482
+2020-04-30,Nordeste,Maranhão,3190,184
+2020-04-30,Nordeste,Paraíba,814,62
+2020-04-30,Nordeste,Pernambuco,6876,565
+2020-04-30,Nordeste,Piauí,513,24
+2020-04-30,Nordeste,Rio Grande do Norte,1177,56
+2020-04-30,Nordeste,Sergipe,447,12
+2020-04-30,Norte,Acre,404,19
+2020-04-30,Norte,Amapá,1080,34
+2020-04-30,Norte,Amazonas,5254,425
+2020-04-30,Norte,Pará,2876,208
+2020-04-30,Norte,Rondônia,502,16
+2020-04-30,Norte,Roraima,519,7
+2020-04-30,Norte,Tocantins,137,3
+2020-04-30,Sudeste,Espírito Santo,2465,83
+2020-04-30,Sudeste,Minas Gerais,1827,82
+2020-04-30,Sudeste,Rio de Janeiro,9453,854
+2020-04-30,Sudeste,São Paulo,28698,2375
+2020-04-30,Sul,Paraná,1407,83
+2020-04-30,Sul,Rio Grande do Sul,1466,51
+2020-04-30,Sul,Santa Catarina,2085,46
+2020-05-01,Centro-Oeste,Distrito Federal,1466,30
+2020-05-01,Centro-Oeste,Goiás,808,29
+2020-05-01,Centro-Oeste,Mato Grosso,320,11
+2020-05-01,Centro-Oeste,Mato Grosso do Sul,261,9
+2020-05-01,Nordeste,Alagoas,1226,53
+2020-05-01,Nordeste,Bahia,3085,117
+2020-05-01,Nordeste,Ceará,7879,505
+2020-05-01,Nordeste,Maranhão,3506,204
+2020-05-01,Nordeste,Paraíba,926,67
+2020-05-01,Nordeste,Pernambuco,7334,603
+2020-05-01,Nordeste,Piauí,600,24
+2020-05-01,Nordeste,Rio Grande do Norte,1297,56
+2020-05-01,Nordeste,Sergipe,517,14
+2020-05-01,Norte,Acre,486,19
+2020-05-01,Norte,Amapá,1121,37
+2020-05-01,Norte,Amazonas,5723,476
+2020-05-01,Norte,Pará,3176,235
+2020-05-01,Norte,Rondônia,585,18
+2020-05-01,Norte,Roraima,602,8
+2020-05-01,Norte,Tocantins,164,3
+2020-05-01,Sudeste,Espírito Santo,2662,96
+2020-05-01,Sudeste,Minas Gerais,1935,88
+2020-05-01,Sudeste,Rio de Janeiro,10166,921
+2020-05-01,Sudeste,São Paulo,30374,2511
+2020-05-01,Sul,Paraná,1447,89
+2020-05-01,Sul,Rio Grande do Sul,1529,58
+2020-05-01,Sul,Santa Catarina,2104,48
+2020-05-02,Centro-Oeste,Distrito Federal,1566,31
+2020-05-02,Centro-Oeste,Goiás,825,30
+2020-05-02,Centro-Oeste,Mato Grosso,331,12
+2020-05-02,Centro-Oeste,Mato Grosso do Sul,266,9
+2020-05-02,Nordeste,Alagoas,1372,58
+2020-05-02,Nordeste,Bahia,3267,123
+2020-05-02,Nordeste,Ceará,8231,614
+2020-05-02,Nordeste,Maranhão,3805,224
+2020-05-02,Nordeste,Paraíba,1034,74
+2020-05-02,Nordeste,Pernambuco,8145,628
+2020-05-02,Nordeste,Piauí,665,26
+2020-05-02,Nordeste,Rio Grande do Norte,1366,59
+2020-05-02,Nordeste,Sergipe,601,14
+2020-05-02,Norte,Acre,553,21
+2020-05-02,Norte,Amapá,1187,40
+2020-05-02,Norte,Amazonas,6062,501
+2020-05-02,Norte,Pará,3460,273
+2020-05-02,Norte,Rondônia,653,23
+2020-05-02,Norte,Roraima,668,9
+2020-05-02,Norte,Tocantins,191,4
+2020-05-02,Sudeste,Espírito Santo,2948,102
+2020-05-02,Sudeste,Minas Gerais,2023,88
+2020-05-02,Sudeste,Rio de Janeiro,10546,971
+2020-05-02,Sudeste,São Paulo,31174,2586
+2020-05-02,Sul,Paraná,1492,90
+2020-05-02,Sul,Rio Grande do Sul,1619,62
+2020-05-02,Sul,Santa Catarina,2346,52
+2020-05-03,Centro-Oeste,Distrito Federal,1649,33
+2020-05-03,Centro-Oeste,Goiás,850,30
+2020-05-03,Centro-Oeste,Mato Grosso,337,12
+2020-05-03,Centro-Oeste,Mato Grosso do Sul,272,10
+2020-05-03,Nordeste,Alagoas,1441,64
+2020-05-03,Nordeste,Bahia,3495,123
+2020-05-03,Nordeste,Ceará,8370,663
+2020-05-03,Nordeste,Maranhão,4040,237
+2020-05-03,Nordeste,Paraíba,1169,76
+2020-05-03,Nordeste,Pernambuco,8643,652
+2020-05-03,Nordeste,Piauí,742,28
+2020-05-03,Nordeste,Rio Grande do Norte,1392,61
+2020-05-03,Nordeste,Sergipe,730,14
+2020-05-03,Norte,Acre,657,24
+2020-05-03,Norte,Amapá,1482,43
+2020-05-03,Norte,Amazonas,6683,548
+2020-05-03,Norte,Pará,3863,309
+2020-05-03,Norte,Rondônia,705,24
+2020-05-03,Norte,Roraima,740,11
+2020-05-03,Norte,Tocantins,246,4
+2020-05-03,Sudeste,Espírito Santo,3086,114
+2020-05-03,Sudeste,Minas Gerais,2118,89
+2020-05-03,Sudeste,Rio de Janeiro,11139,1019
+2020-05-03,Sudeste,São Paulo,31772,2627
+2020-05-03,Sul,Paraná,1514,93
+2020-05-03,Sul,Rio Grande do Sul,1666,65
+2020-05-03,Sul,Santa Catarina,2346,52
+2020-05-04,Centro-Oeste,Distrito Federal,1768,33
+2020-05-04,Centro-Oeste,Goiás,861,30
+2020-05-04,Centro-Oeste,Mato Grosso,344,13
+2020-05-04,Centro-Oeste,Mato Grosso do Sul,274,10
+2020-05-04,Nordeste,Alagoas,1538,72
+2020-05-04,Nordeste,Bahia,3734,141
+2020-05-04,Nordeste,Ceará,11040,712
+2020-05-04,Nordeste,Maranhão,4227,249
+2020-05-04,Nordeste,Paraíba,1219,79
+2020-05-04,Nordeste,Pernambuco,8863,691
+2020-05-04,Nordeste,Piauí,784,28
+2020-05-04,Nordeste,Rio Grande do Norte,1421,62
+2020-05-04,Nordeste,Sergipe,772,17
+2020-05-04,Norte,Acre,733,28
+2020-05-04,Norte,Amapá,1733,49
+2020-05-04,Norte,Amazonas,7242,584
+2020-05-04,Norte,Pará,4125,330
+2020-05-04,Norte,Rondônia,756,25
+2020-05-04,Norte,Roraima,806,11
+2020-05-04,Norte,Tocantins,267,6
+2020-05-04,Sudeste,Espírito Santo,3226,122
+2020-05-04,Sudeste,Minas Gerais,2347,90
+2020-05-04,Sudeste,Rio de Janeiro,11721,1065
+2020-05-04,Sudeste,São Paulo,32187,2654
+2020-05-04,Sul,Paraná,1562,94
+2020-05-04,Sul,Rio Grande do Sul,1711,74
+2020-05-04,Sul,Santa Catarina,2519,52
+2020-05-05,Centro-Oeste,Distrito Federal,1818,33
+2020-05-05,Centro-Oeste,Goiás,922,38
+2020-05-05,Centro-Oeste,Mato Grosso,365,13
+2020-05-05,Centro-Oeste,Mato Grosso do Sul,283,10
+2020-05-05,Nordeste,Alagoas,1606,80
+2020-05-05,Nordeste,Bahia,4040,146
+2020-05-05,Nordeste,Ceará,11470,795
+2020-05-05,Nordeste,Maranhão,4530,271
+2020-05-05,Nordeste,Paraíba,1361,85
+2020-05-05,Nordeste,Pernambuco,9325,749
+2020-05-05,Nordeste,Piauí,875,29
+2020-05-05,Nordeste,Rio Grande do Norte,1536,68
+2020-05-05,Nordeste,Sergipe,898,21
+2020-05-05,Norte,Acre,817,29
+2020-05-05,Norte,Amapá,1931,55
+2020-05-05,Norte,Amazonas,8109,649
+2020-05-05,Norte,Pará,4472,369
+2020-05-05,Norte,Rondônia,861,29
+2020-05-05,Norte,Roraima,869,11
+2020-05-05,Norte,Tocantins,303,7
+2020-05-05,Sudeste,Espírito Santo,3402,133
+2020-05-05,Sudeste,Minas Gerais,2452,94
+2020-05-05,Sudeste,Rio de Janeiro,12391,1123
+2020-05-05,Sudeste,São Paulo,34053,2851
+2020-05-05,Sul,Paraná,1588,99
+2020-05-05,Sul,Rio Grande do Sul,1815,79
+2020-05-05,Sul,Santa Catarina,2623,55
+2020-05-06,Centro-Oeste,Distrito Federal,1906,34
+2020-05-06,Centro-Oeste,Goiás,1024,45
+2020-05-06,Centro-Oeste,Mato Grosso,379,13
+2020-05-06,Centro-Oeste,Mato Grosso do Sul,288,10
+2020-05-06,Nordeste,Alagoas,1703,89
+2020-05-06,Nordeste,Bahia,4301,160
+2020-05-06,Nordeste,Ceará,12304,848
+2020-05-06,Nordeste,Maranhão,5028,291
+2020-05-06,Nordeste,Paraíba,1493,92
+2020-05-06,Nordeste,Pernambuco,9881,803
+2020-05-06,Nordeste,Piauí,949,30
+2020-05-06,Nordeste,Rio Grande do Norte,1574,72
+2020-05-06,Nordeste,Sergipe,998,23
+2020-05-06,Norte,Acre,943,33
+2020-05-06,Norte,Amapá,2046,56
+2020-05-06,Norte,Amazonas,9243,751
+2020-05-06,Norte,Pará,5017,392
+2020-05-06,Norte,Rondônia,943,33
+2020-05-06,Norte,Roraima,932,13
+2020-05-06,Norte,Tocantins,351,9
+2020-05-06,Sudeste,Espírito Santo,3568,145
+2020-05-06,Sudeste,Minas Gerais,2605,97
+2020-05-06,Sudeste,Rio de Janeiro,13295,1205
+2020-05-06,Sudeste,São Paulo,37853,3045
+2020-05-06,Sul,Paraná,1627,101
+2020-05-06,Sul,Rio Grande do Sul,2050,87
+2020-05-06,Sul,Santa Catarina,2917,59
+2020-05-07,Centro-Oeste,Distrito Federal,2258,35
+2020-05-07,Centro-Oeste,Goiás,1027,44
+2020-05-07,Centro-Oeste,Mato Grosso,417,13
+2020-05-07,Centro-Oeste,Mato Grosso do Sul,311,10
+2020-05-07,Nordeste,Alagoas,1867,98
+2020-05-07,Nordeste,Bahia,4528,165
+2020-05-07,Nordeste,Ceará,13888,903
+2020-05-07,Nordeste,Maranhão,5389,305
+2020-05-07,Nordeste,Paraíba,1657,101
+2020-05-07,Nordeste,Pernambuco,10824,845
+2020-05-07,Nordeste,Piauí,1051,35
+2020-05-07,Nordeste,Rio Grande do Norte,1739,76
+2020-05-07,Nordeste,Sergipe,1214,25
+2020-05-07,Norte,Acre,1014,36
+2020-05-07,Norte,Amapá,2199,61
+2020-05-07,Norte,Amazonas,10099,806
+2020-05-07,Norte,Pará,5524,410
+2020-05-07,Norte,Rondônia,1098,37
+2020-05-07,Norte,Roraima,1020,14
+2020-05-07,Norte,Tocantins,423,9
+2020-05-07,Sudeste,Espírito Santo,3838,155
+2020-05-07,Sudeste,Minas Gerais,2770,106
+2020-05-07,Sudeste,Rio de Janeiro,14156,1394
+2020-05-07,Sudeste,São Paulo,39928,3206
+2020-05-07,Sul,Paraná,1656,104
+2020-05-07,Sul,Rio Grande do Sul,2129,90
+2020-05-07,Sul,Santa Catarina,3082,63
+2020-05-08,Centro-Oeste,Distrito Federal,2442,37
+2020-05-08,Centro-Oeste,Goiás,1053,49
+2020-05-08,Centro-Oeste,Mato Grosso,457,14
+2020-05-08,Centro-Oeste,Mato Grosso do Sul,326,11
+2020-05-08,Nordeste,Alagoas,2033,108
+2020-05-08,Nordeste,Bahia,4818,183
+2020-05-08,Nordeste,Ceará,14956,966
+2020-05-08,Nordeste,Maranhão,5909,330
+2020-05-08,Nordeste,Paraíba,2031,114
+2020-05-08,Nordeste,Pernambuco,11587,927
+2020-05-08,Nordeste,Piauí,1131,37
+2020-05-08,Nordeste,Rio Grande do Norte,1821,81
+2020-05-08,Nordeste,Sergipe,1438,28
+2020-05-08,Norte,Acre,1177,38
+2020-05-08,Norte,Amapá,2322,66
+2020-05-08,Norte,Amazonas,10727,874
+2020-05-08,Norte,Pará,6141,515
+2020-05-08,Norte,Rondônia,1222,39
+2020-05-08,Norte,Roraima,1124,16
+2020-05-08,Norte,Tocantins,494,9
+2020-05-08,Sudeste,Espírito Santo,4242,165
+2020-05-08,Sudeste,Minas Gerais,2943,111
+2020-05-08,Sudeste,Rio de Janeiro,15741,1503
+2020-05-08,Sudeste,São Paulo,41830,3416
+2020-05-08,Sul,Paraná,1711,106
+2020-05-08,Sul,Rio Grande do Sul,2447,91
+2020-05-08,Sul,Santa Catarina,3205,63

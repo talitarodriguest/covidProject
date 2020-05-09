@@ -186,7 +186,7 @@ casesItaly <- world %>%
 casesItaly$id <- c(1:nrow(casesItaly))
 #View(casesItaly)
 casesItalyFilter <- casesItaly %>%
-  filter(casesItaly$id <= 50)
+  filter(casesItaly$id <= 70)
 
 # Mortes Itália
 deathsItaly <- world %>%
@@ -195,7 +195,7 @@ deathsItaly <- world %>%
 deathsItaly$id <- c(1:nrow(deathsItaly))
 #View(deathsItaly)
 deathsItalyFilter <- deathsItaly %>%
-  filter(deathsItaly$id <=30)
+  filter(deathsItaly$id <=50)
 #View(deathsItalyFilter)
 
 # Gráficos Brasil e Mundo
